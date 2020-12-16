@@ -6,7 +6,7 @@ dotnet = 'path\\to\\dotnet.exe'
 stages {
 stage ('Checkout') {
             steps {
-                 git url: 'https://github.com/Pawanrt31/aspnet-core-3-jwt-authentication-ap',branch: 'master'
+                 git url: 'https://github.com/Pawanrt31/aspnet-core-3-jwt-authentication-api',branch: 'master'
             }
 }
 stage ('Restore PACKAGES') {     
